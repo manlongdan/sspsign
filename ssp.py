@@ -22,7 +22,7 @@ SKey = ""
 QKey = ""
 #检测推送
 if "fs" in os.environ:
-    fs = os.environ.get("ssp_fs")
+    fs = os.environ.get("fs")
     fss = fs.split("&")
     if("tel" in fss):
         if "ssp_telkey" in os.environ:
